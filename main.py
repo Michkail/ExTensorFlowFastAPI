@@ -18,6 +18,6 @@ async def index():
 
 
 @app.post('/predict/')
-async def predict(UserInput: UserInput):
+async def predict(user_input: UserInput):
     prediction = MODEL.predict([UserInput.user_input])
     return {"prediction": float(prediction)}
