@@ -8,6 +8,7 @@ fastapi = "*"
 uvicorn = "*"
 tensorflow = "*"
 jupyter = "*"
+tensorflow-cpu = "*"
 
 [requires]
 python_version = "3.8"
